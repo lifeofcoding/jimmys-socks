@@ -20,7 +20,8 @@ export const getCountryByIp = ip => {
 
 export const loadProxyList = () =>
   axios
-    .get('https://jimmy-proxy-api.herokuapp.com/fetch')
+    //.get('https://jimmy-proxy-api.herokuapp.com/fetch')
+    .get('http://68.183.0.243:3000/fetch')
     .then(res => {
       try {
         const list = res.data
