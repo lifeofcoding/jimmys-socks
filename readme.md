@@ -12,6 +12,8 @@ Gorgeous chrome extension that uses a separate back-end API that gathers, socks 
 
 Chrome Webstore link coming soon! For now, you can download the extension from this repo!
 
+[Download ChromeExtension.crx](https://github.com/lifeofcoding/jimmys-socks/raw/master/ChromeExtension.crx)
+
 ## Building
 
 ```
