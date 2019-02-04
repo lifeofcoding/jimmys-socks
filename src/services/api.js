@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { updateState } from '../state';
 
-axios.defaults.timeout = 2500;
+axios.defaults.timeout = 8500;
 
 export const getCountryByIp = ip => {
   const data = new FormData();
@@ -21,7 +21,7 @@ export const getCountryByIp = ip => {
 export const loadProxyList = () =>
   axios
     //.get('https://jimmy-proxy-api.herokuapp.com/fetch')
-    .get('http://68.183.0.243:3000/fetch')
+    .get('http://lifeofcoding.online/api/proxies.json')
     .then(res => {
       try {
         const list = res.data
