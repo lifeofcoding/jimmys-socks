@@ -3,8 +3,8 @@
  * @type {{ON: string, OFF: string}}
  */
 const EXT_ICONS = {
-  ON: './assets/icons/icon48-active.png',
-  OFF: './assets/icons/icon48.png',
+  ON: './assets/icons/icon-on.png',
+  OFF: './assets/icons/icon-off.png',
 };
 
 export const changeExtensionIcon = proxyActive => {

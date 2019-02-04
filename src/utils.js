@@ -64,7 +64,7 @@ export const showNofitication = ({ title, message }) => {
     'proxyNotify',
     {
       type: 'basic',
-      iconUrl: 'assets/icons/icon128.png',
+      iconUrl: 'assets/icons/icon.svg',
       title,
       message,
     },

@@ -10,7 +10,7 @@ export const applyProxy = proxy =>
     if (
       state.specialDomains &&
       state.specialDomains.length &&
-      state.options.reloadActiveTabOnApplyProxy
+      state.options.useProxyOnlyForSpecialDomains
     ) {
       const config = {
         mode: 'pac_script',

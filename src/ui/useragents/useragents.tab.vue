@@ -119,9 +119,13 @@ export default class UseragentsTab extends Vue {
   color: #6f8390;
 }
 
+.md-subheader.md-theme-default {
+  color: #FFFFFF !important;
+}
+
 .userAgents__statusLabel {
   font-size: 12px;
-  color: rgba(62, 100, 119, 0.64) !important;
+  color: rgba(62, 100, 119, 0.94) !important;
 }
 
 .userAgents__statusValue {
@@ -132,7 +136,7 @@ export default class UseragentsTab extends Vue {
 
 .userAgents__statusHead {
   font-size: 17px;
-  color: #51606b;
+  color: #FFFFFF;
   font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 7px;
@@ -140,7 +144,7 @@ export default class UseragentsTab extends Vue {
 
 .uaList__item {
   &.active {
-    background-color: rgba(0, 255, 44, 0.26);
+    background-color: rgba(0, 58, 148, 0.81);
   }
 }
 
@@ -177,6 +181,7 @@ export default class UseragentsTab extends Vue {
 
 .userAgents .md-list.md-theme-default {
   padding-top: 0 !important;
+  background-color: #0c0c0c !important;
 }
 
 .userAgents .md-list-item {

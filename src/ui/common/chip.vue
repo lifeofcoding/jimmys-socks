@@ -55,7 +55,7 @@ export default class Chip extends Vue {
 }
 
 .chip__text {
-  color: #495c69;
+  color: #FFFFFFF;
   font-size: 13px;
   font-weight: 500;
   padding: 0 6px;

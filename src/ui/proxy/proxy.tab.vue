@@ -187,6 +187,7 @@ function transformProxies(appState) {
 
 <style lang="scss">
 .activateBtn {
+  color: #FFFFFF;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
   margin-right: 24px !important;

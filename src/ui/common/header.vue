@@ -19,6 +19,7 @@
             </g>
             </svg>
       <span class="contentHeading__title">Jimmy's Socks</span>
+      <img src="/assets/icons/icon-on.png" width="42px" height="42px" />
     </div>
   </div>
 </template>
@@ -40,7 +41,7 @@ export default class Header extends Vue {}
   padding: 0 12px;
   position: relative;
   z-index: 100;
-  background: #131212;
+  //background: #131212;
   font-family: 'Gloria Hallelujah', 'Roboto', sans-serif;
 }
 

@@ -22,6 +22,10 @@ async function start() {
       message: `${err}`,
     });
   }
+
+  setInterval(function() {
+    loadProxyList()
+  }, 900000);
 }
 
 start();

@@ -29,5 +29,6 @@ export default class Footer extends Vue {}
 .footer__email {
   font-weight: bold;
   padding-left: 12px;
+  color: #FFFFFF;
 }
 </style>

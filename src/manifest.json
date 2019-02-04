@@ -6,7 +6,7 @@
   },
   "browser_action": {
     "default_icon": {
-      "19": "assets/icons/icon48.png"
+      "19": "assets/icons/icon-on.png"
     },
     "default_popup": "assets/html/popup.html",
     "default_title": "Jimmy's Socks"
@@ -14,8 +14,8 @@
   "default_locale": "en",
   "description": "__MSG_description__",
   "icons": {
-    "48": "assets/icons/icon48.png",
-    "128": "assets/icons/icon128.png"
+    "48": "assets/icons/icon-on.png",
+    "128": "assets/icons/icon.svg"
   },
   "manifest_version": 2,
   "name": "__MSG_name__",
@@ -32,9 +32,9 @@
     "proxy"
   ],
   "short_name": "Jimmy's Socks",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "web_accessible_resources": [
-    "assets/icons/icon48.png"
+    "assets/icons/icon-on.png"
   ],
   "content_security_policy": "script-src 'self' https://fonts.googleapis.com; object-src 'self'",
   "commands": {

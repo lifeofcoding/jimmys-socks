@@ -134,7 +134,7 @@ export const triggerUsingCustomDomains = async (value) => {
   await updateState({
     options: {
       ...state.options,
-      reloadActiveTabOnApplyProxy: Boolean(value)
+      useProxyOnlyForSpecialDomains: Boolean(value)
     }
   });
   if (getState().currentProxy && wasEnabled) {

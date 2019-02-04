@@ -51,9 +51,11 @@ body {
   height: 100%;
   width: 430px;
   min-width: 450px;
-  min-height: 400px;
+  min-height: 600px;
   padding-right: 2px;
-  background-color: #131212;
+  background-color: rgba(19,18,18,0.76);
+  overflow-y: scroll;
+
   ::-webkit-scrollbar {
     width: 2px;
     height: 2px;
@@ -72,7 +74,8 @@ body {
 
 html.md-theme-default {
   color: #FFFFFF;
-  background-color: #131212;
+  background-image: url(/assets/images/background.jpg);
+  background-color: transparent;
 }
 
 .md-tabs.md-theme-default .md-tabs-navigation {

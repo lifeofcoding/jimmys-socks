@@ -1,6 +1,6 @@
 <template>
   <div class="optionsContent">
-    <h2 class="optionsHeader">JimmyProxy Options</h2>
+    <h2 class="optionsHeader">Options</h2>
     <div class="options__inner">
       <md-checkbox v-model="reloadActiveTab" class="md-primary toggleDomains__checkbox">
         Reload active tab on changing socks

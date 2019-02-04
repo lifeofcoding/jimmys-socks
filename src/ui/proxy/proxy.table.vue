@@ -138,7 +138,7 @@ export default class ProxyTable extends Vue {
 }
 
 .proxyTable__headingLeft {
-  color: #6f8390;
+  color: #FFFFFF;
   font-size: 16px;
   font-weight: bold;
 }
@@ -162,17 +162,18 @@ export default class ProxyTable extends Vue {
 
 .proxyRow {
   display: flex;
+  color: #FFFFFF;
   align-items: center;
   padding: 0;
   font-size: 12px;
   border-bottom: 1px solid #eee;
 
   &:hover {
-    background-color: #fbfbfb;
+    background-color: #060606;
   }
 
   &.active {
-    background-color: #c3ffd9;
+    background-color: #060606;
   }
 
   .md-button.md-theme-default {
@@ -180,7 +181,7 @@ export default class ProxyTable extends Vue {
     height: 36px;
     line-height: 36px;
     border-radius: 0;
-    color: rgba(62, 100, 119, 0.64) !important;
+    color: rgba(62, 100, 119, 0.94) !important;
     font-size: 13px;
     font-weight: 600;
   }
@@ -204,6 +205,7 @@ export default class ProxyTable extends Vue {
 }
 
 .proxyRow__protocol {
+  color: #FFFFFF;
 }
 
 .proxyRow__ip {
@@ -211,11 +213,11 @@ export default class ProxyTable extends Vue {
   font-weight: 600;
   min-width: 100px;
   display: inline-block;
-  color: #495c69;
+  color: #FFFFFF;
 }
 
 .proxyRow__port {
-  color: rgba(62, 100, 119, 0.64) !important;
+  color: #FFFFFF !important;
   font-size: 12px;
   font-weight: 500;
   min-width: 36px;
@@ -229,11 +231,11 @@ export default class ProxyTable extends Vue {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #e2e2e2;
+  color: #FFFFFF !important;
 }
 
 .proxyRow__type {
-  color: rgba(62, 100, 119, 0.64) !important;
+  color: #FFFFFF;
   font-size: 12px;
   font-weight: 900;
   min-width: 30px;

@@ -6,7 +6,7 @@
         v-model="useProxyOnlyForSpecialDomains"
         :disabled="!specialDomains || !specialDomains.length"
         class="md-primary toggleDomains__checkbox">
-        Use proxy only for custom domains
+        Use proxy for only these domains:
       </md-checkbox>
       <div class="specialDomain__addNew" @click="isAddFormShown = !isAddFormShown">
         <span v-if="!isAddFormShown">Add new domain</span>
@@ -64,7 +64,7 @@ export default class AddSpecialDomainForm extends Vue {
 
   mounted() {
     chrome.runtime.sendMessage({ action: 'GET_APP_STATE' }, state => {
-      this.useProxyOnlyForSpecialDomains = state.options.reloadActiveTabOnApplyProxy;
+      this.useProxyOnlyForSpecialDomains = state.options.useProxyOnlyForSpecialDomains;
       this.mapCustomDomains(state);
     });
     setTimeout(() => {

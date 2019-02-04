@@ -123,6 +123,6 @@ export default class ProxyFilter extends Vue {
 }
 
 .proxyFilter__field label {
-  color: rgba(62, 100, 119, 0.64) !important;
+  color: rgba(62, 100, 119, 0.94) !important;
 }
 </style>

@@ -10,6 +10,7 @@ let appState = {
   proxyError: null,
   options: {
     reloadActiveTabOnApplyProxy: true,
+    useProxyOnlyForSpecialDomains: false,
     filter: {
       country: 'any',
       type: 'all'

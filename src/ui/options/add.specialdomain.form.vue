@@ -58,6 +58,7 @@ export default class AddCustomDomainForm extends Vue {
   position: relative;
   padding: 0 12px;
   margin-bottom: -22px;
+  color: #FFFFFF !important;
 }
 
 .addSpecialDomain__inputField {

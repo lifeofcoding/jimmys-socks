@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { updateState } from '../state';
 
-axios.defaults.timeout = 8500;
+axios.defaults.timeout = 30000;
 
 export const getCountryByIp = ip => {
   const data = new FormData();
